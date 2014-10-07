@@ -1,0 +1,28 @@
+{
+  "name"            : "todo",
+  "version"         : "0.10.06",
+  "description"     : "todo api.",
+  "author"          : "Joseba Madrigal",
+  "dependencies": {
+    "coffee-script" : "*",
+    "zenserver"     : "*"
+  },
+  "devDependencies" : {
+    "gulp"        : "*",
+    "gulp-coffee" : "*",
+    "gulp-concat" : "*",
+    "gulp-connect": "*",
+    "gulp-header" : "*",
+    "gulp-jasmine": "*",
+    "gulp-stylus" : "*",
+    "gulp-uglify" : "*",
+    "gulp-util"   : "*",
+    "gulp-yml"    : "*",
+    "zenrequest"  : "*"
+  },
+  "scripts"         : {
+    "start": "node zen.js zen development",
+    "test": "node zen.request.js"
+  },
+  "engines"         : { "node": "*"}
+}
